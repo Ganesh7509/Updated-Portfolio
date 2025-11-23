@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganesh Kunde | Full Stack Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <input type="checkbox" class="checkbox" id="checkbox">
+        <h1 class="nav_head">Ganesh.</h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <a href="#contact"><button class="contact_btn">Contact Me</button></a>
+        </ul>
+        <label for="checkbox" class="checkbtn" aria-label="Toggle menu" role="button">
+            <i class="fas fa-bars"></i>
+        </label>
+        
+    </nav>
+    
+    <section id="home" class="home">
+        <img src="./image/my photo (1).jpg" alt="Ganesh Kunde's photo" width="450px" height="400px">
+        <div class="description">
+            <h1>Hello I'm<br><span>Ganesh Kunde</span></h1>
+            <h2>I'm a <span>Full stack developer....</span></h2>
+            <p style="color: #00BCD4;">"Welcome! I’m here to create, innovate, and deliver."</p>
+            <p>As a passionate full-stack developer, I believe in the power of clean code to create meaningful solutions that drive innovation and success.</p>
+            <div class="font" style="text-decoration: none;">
+                <a href="mailto:kundeganesh52@gmail.com" target="_blank" style="text-decoration: none; color: inherit;" aria-label="Email: kundeganesh52@gmail.com">
+                    <i class="fa-brands fa-google"></i>
+                </a>
+                
+                <a href="https://github.com/Ganesh7509" target="_blank" style="text-decoration: none; color: inherit;" aria-label="GitHub Profile">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/ganesh-kunde-73b534229/" target="_blank" style="text-decoration: none; color: inherit;" aria-label="LinkedIn Profile">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="tel:7702505896" style="text-decoration: none; color: inherit;" aria-label="Phone: 7702505896">
+                    <i class="fas fa-phone"></i>
+                </a>
+            </div>
+            <button>
+                <a href="https://drive.google.com/uc?export=download&id=1Inb4iAIyyEXtusnVgJNOd79tnGc1rlaC" 
+                   download 
+                   style="text-decoration: none; color: inherit;">
+                  Download CV
+                </a>
+              </button>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about_section">
+            <h1>About <span>Me</span></h1>
+            <h2>Full Stack <span>Developer!</span></h2>
+            <p id="intro-text">
+                Hello, I'm Ganesh Kunde, a passionate and driven Web Developer specializing in both frontend and backend technologies. With a strong foundation in JavaScript, React, and Node.js, I strive to build intuitive, dynamic, and responsive websites that offer exceptional user experiences. I take pride in solving complex problems and transforming ideas into clean, functional code.
+            </p>
+            <p id="more-info" style="display: none;">
+                As a Full Stack Developer, I have expertise in creating full-fledged web applications using technologies like HTML, CSS, JavaScript, React.js, Node.js, and Express. I am proficient in using databases such as MongoDB and MySQL, ensuring data is managed efficiently for seamless user interaction. I'm dedicated to continuous learning, keeping up with the latest trends in web development to deliver cutting-edge, high-quality solutions.
+                <br><br>
+                I believe in the power of collaboration and thrive in environments that promote teamwork and creativity. Whether it's enhancing UI/UX design or optimizing backend performance, I always aim to improve and create value. I'm eager to take on new challenges, grow as a developer, and contribute to impactful projects.
+            </p>
+            <button class="about_btn" id="read-more-btn">Read More...</button>
+        </div>
+    </section>
+    
+    <section id="service">
+        <h1 class="service_section"> <span>My Services</span></h1>
+        <div class="card">
+            <div class="service_card">
+                <i class="fas fa-code"></i>
+                <h2>Frontend Development</h2>
+                <p>With expertise in HTML, CSS, JavaScript, and frameworks like React and Bootstrap, I specialize in creating visually stunning, interactive, and responsive user interfaces. My designs prioritize usability and accessibility, ensuring that the user experience is seamless across devices and browsers. From landing pages to dynamic web applications, I focus on delivering pixel-perfect designs that align with modern web standards.</p>
+            </div>
+            <div class="service_card">
+                <i class="fas fa-server"></i>
+                <h2>Backend Development</h2>
+                <p>As a backend developer, I design and implement robust, secure, and scalable server-side solutions using Node.js, Express.js, and MongoDB. My work includes building RESTful APIs, managing databases, and ensuring the smooth integration between frontend and backend systems. I excel in optimizing performance, maintaining data integrity, and crafting solutions that meet business needs while adhering to industry best practices.</p>
+            </div>
+            <div class="service_card">
+                <i class="fas fa-globe"></i>
+                <h2>Full-Stack Web Development</h2>
+                <p>Combining my expertise in both frontend and backend technologies, I offer comprehensive full-stack development services. This includes designing intuitive user interfaces, developing efficient backend architectures, and seamlessly integrating both for a unified web application. I am experienced in using the MERN stack (MongoDB, Express.js, React, Node.js) to deliver robust, scalable, and efficient applications that solve real-world problems.</p>
+            </div>
+        </div>
+    </section>
+   
+   <section id="projects">
+    <h1 class="port_section">My <span>Projects</span></h1>
+    <div class="project">
+
+        <div class="port_card">
+            <img src="./image/bookstore.png" alt="MERN Book Store" width="350px" height="350px">
+            <div class="content">
+                <h1>MERN Book Store</h1>
+                <p>A full-stack book management application where users can add, update, delete, and view books. Built using React.js for frontend and Node.js + Express.js for backend, with MongoDB as the database. Integrated REST API calls using Axios.</p>
+                <div class="project-btns">
+                    <a href="https://mern-book-app-frontend.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-live">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                    <a href="https://github.com/Ganesh7509/Mern-Book-App-Frontend" target="_blank" rel="noopener noreferrer" class="btn btn-code">View Code <i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="port_card">
+            <img src="./image/brightcompass.png" alt="BrightCampus Website" width="350px" height="350px">
+            <div class="content">
+                <h1>BrightCampus — Educational Website</h1>
+                <p>A responsive educational website built using React.js. Includes sections like Programs, About, Campus, with smooth scrolling, dynamic navbar, hero banners, testimonials, and Web3Forms integration for contact form submissions.</p>
+                <div class="project-btns">
+                    <a href="https://react-bright-campus.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-live">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                    <a href="https://github.com/Ganesh7509/React-Bright-Campus" target="_blank" rel="noopener noreferrer" class="btn btn-code">View Code <i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="port_card">
+            <img src="./image/e-mart.png" alt="E-Mart Application" width="350px" height="350px">
+            <div class="content">
+                <h1>E-Mart Application</h1>
+                <p>A full-fledged e-commerce platform with product categories, search, and user authentication. Built using React.js, Context API, and React Router. Features dynamic cart updates, filtering, and responsive design.</p>
+                <div class="project-btns">
+                    <a href="https://react-ecommerce-application-lime.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-live">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                    <a href="https://github.com/Ganesh7509/React-Ecommerce-Application" target="_blank" rel="noopener noreferrer" class="btn btn-code">View Code <i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="port_card">
+            <img src="./image/smart-finance.png" alt="Smart Finance Manager" width="350px" height="350px">
+            <div class="content">
+                <h1>Smart Finance Manager</h1>
+                <p>An interactive personal finance tracker to manage income, expenses, and balance analytics. Built with HTML, CSS, and JavaScript. Uses LocalStorage to save transaction data. Features dynamic summaries and a responsive design.</p>
+                <div class="project-btns">
+                    <a href="https://smart-personal-tracker.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-live">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                    <a href="https://github.com/Ganesh7509/Smart-Personal-Tracker" target="_blank" rel="noopener noreferrer" class="btn btn-code">View Code <i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="port_card">
+            <img src="./image/e-mart.png" alt="Food Reservation App" width="350px" height="350px">
+            <div class="content">
+                <h1>Food Reservation App</h1>
+                <p>A full-stack table reservation platform where users can book tables. Built with React.js for frontend and Node.js + Express.js for backend with MongoDB. Includes input validation, success/error pages, and a responsive design.</p>
+                <div class="project-btns">
+                    <a href="https://food-reservation-app-ochre.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-live">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                    <a href="https://github.com/Ganesh7509/FOOD_RESERVATION_APP" target="_blank" rel="noopener noreferrer" class="btn btn-code">View Code <i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="port_card">
+            <img src="./image/react-task.png" alt="React Tasks Showcase">
+            <div class="content">
+                <h1>React Tasks Showcase</h1>
+                <p>
+                    A hands-on React project demonstrating 11 practical tasks, including the use of various Hooks (useState, useEffect, useReducer, useRef, useMemo, useCallback), Context API, Dynamic/Protected Routing, and Lazy Loading Components.
+                </p>
+                <div class="project-btns">
+                    <a href="https://react-tasks-f5z9.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-live">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                    <a href="https://github.com/Ganesh7509/React-Tasks" target="_blank" rel="noopener noreferrer" class="btn btn-code">View Code <i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+  <section id="contact">
+    <div class="container">
+        <div class="header">
+            <h3>Contact</h3>
+            <h1>Reach me out via:</h1>
+        </div>
+        <div class="wrapper">
+            <div class="grp">
+                <i class="fa-solid fa-paper-plane"></i>
+                <span>kundeganesh52@gmail.com</span>
+            </div>
+            <div class="grp">
+                <i class="fa-solid fa-phone"></i>
+                <span>+91 77 02 50 58 96</span>
+            </div>
+          
+        </div>
+        <div class="footer">
+            <p>Let's talk about a project</p>
+            <a href="mailto:kundeganesh52@gmail.com">
+                Hire Me <i class="fa-solid fa-envelope"></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+<a href="#" class="back-top">
+    <i class="fa-solid fa-arrow-up"></i>
+</a>
+    <script>
+      // Smooth Navbar transition
+    const nav = document.querySelector('nav');
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) {
+            nav.classList.add('scrolled');
+        } else {
+            nav.classList.remove('scrolled');
+        }
+    });
+    
+      // Read More functionality
+      document.getElementById("read-more-btn").addEventListener("click", function() {
+    var moreInfo = document.getElementById("more-info");
+
+    if (moreInfo.style.display === "none") {
+        moreInfo.style.display = "block"; 
+        this.textContent = "Read Less..."; 
+    } else {
+        moreInfo.style.display = "none";
+        this.textContent = "Read More..."; 
+    }
+});
+    </script>
+</body>
+</html>
